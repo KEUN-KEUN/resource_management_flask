@@ -3,6 +3,7 @@ SQLAlchemy
 flask
 psycopg2-binary
 redis
+sqlmodel
 
 # dev/tests
 pytest

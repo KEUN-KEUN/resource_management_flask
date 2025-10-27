@@ -4,6 +4,12 @@ from datetime import date
 from typing import Optional, List, Set
 from . import commands, events
 
+class DashboardTest: 
+    def __init__(self, todayTotalQuantity: int):
+        self.todayTotalQuantity = todayTotalQuantity
+        
+
+"""
 
 class Product:
     def __init__(self, sku: str, batches: List[Batch], version_number: int = 0):
@@ -88,3 +94,4 @@ class Batch:
 
     def can_allocate(self, line: OrderLine) -> bool:
         return self.sku == line.sku and self.available_quantity >= line.qty
+"""
