@@ -2,7 +2,7 @@ from sqlmodel import SQLModel, Field
 from typing import Optional
 from datetime import datetime
 
-class DashboardTest(SQLModel, tabble=True):
+class DashboardTest(SQLModel, table=True):
     __tablename__ = "dashboard_test"
 
     grid_id: str = Field(
@@ -17,3 +17,4 @@ class DashboardTest(SQLModel, tabble=True):
         description="Today's Total Quantity",
         sa_column_kwargs={"unique": True, "nullable": False},
     )
+
